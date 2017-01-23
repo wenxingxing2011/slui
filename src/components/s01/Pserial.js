@@ -6,6 +6,10 @@ class Pserial extends Component {
     message.info('Click on left button.');
         console.log('click left button', e);
     };
+    handleMenuClick=(e) => {
+
+            console.log('click', e);
+        };
     render () {
 
        const menu = (
